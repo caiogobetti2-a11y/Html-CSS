@@ -1,0 +1,13 @@
+@charset"UTF-8";                                           
+body{
+      background-color: lightgray;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: justify;
+      font-size: small;
+    }
+    h1{
+      color: red;
+    }
+    p{
+      background-color: chocolate;
+    }

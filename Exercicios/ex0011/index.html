@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagens dinamicas</title>
+</head>
+<body>
+  <h1>Imegens Dinamicas</h1>
+  <p>Tente abrir esse site em varios dispositivos diferentes/ ou diminua ou aumente o tamanho do seunavegador</p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="Imagens/equeno.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="Imagens/medio.png" type="image/png">
+    <img src="Imagens/grande.png" alt="Imagem flexivel">
+    <hr>
+    <h1>Audios</h1>
+    <p>Efeito sonoro de zombie</p>
+    <audio src="midia/malezombie Roar.mp3" controls autoplay loop></audio>
+    <hr>
+    <p>Podcast</p>
+    <audio preload="metadata" autoplay controls>
+      <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+      <p>Infelizmente seu navegador não carrega audio em mp3, <a href="midia/guanacast-33.mp3">clique aqui</a> para baixar o audio mp3</p>
+    </audio>
+  </picture>
+</body>
+</html>

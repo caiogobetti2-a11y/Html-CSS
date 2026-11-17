@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+  text-align: justify;
+}
+
+h1{
+  font-family: 'kaushan script';
+  font-size: 4em;
+  text-align: center;
+}
+
+p{
+  font-family: 'work sans', serif;
+}

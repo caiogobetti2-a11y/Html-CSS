@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    a{
+      color: red;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:visited{
+      color: darkred;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover{
+      text-decoration: underline;
+      color: black;
+    }
+    a:active{
+      color: purple;
+    }
+    a::after{
+      content: '{link}';
+      color: black;
+    }
+    a::before{
+      content: '--';
+      color: black;
+    }
+  </style>
+  <title>links</title>
+</head>
+<body>
+  <h1>Personalizando links</h1>
+  <ul>
+    <li><a href="https://www.saopaulofc.net/" target="_blank" rel="external">Pagina oficial</a></li>
+    <li><a href="https://www.instagram.com/saopaulofc/" target="_blank" rel="external">Instagram</a></li>
+    <li><a href="https://www.youtube.com/spfctv" target="_blank" rel="external">Youtube</a></li>
+  </ul>
+</body>
+</html>
