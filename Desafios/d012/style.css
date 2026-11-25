@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+header{
+  background-color: black;
+}
+a{
+  text-decoration: none;
+  
+}
+header p{
+  color: white;
+}
+header h1{
+  color: white;
+}
