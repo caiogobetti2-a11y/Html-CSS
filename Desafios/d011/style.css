@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+  /*background-size: cover;
+  background: black url('Capa-do-disco-Nada-como-um-dia-apos-o-outro-dia.-Fonte_-https___www.racionaisoficial.com_.br_.jpg') center center no-repeat fixed;
+  text-align: justify;*/
+  background-color: #121212;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+  background-color: white;
+  padding: 0px;
+  margin: 0px
+}
+h1{
+  color: #C81D25;
+  text-align: center;
+  font-size: 4em;
+}
+section{
+  background-color: white;
+  padding: 10px;
+  margin: 10px 100px;
+}
+div#raci{
+  height: 96vh;
+  background-size: cover;
+  background: black url('Capa-do-disco-Nada-como-um-dia-apos-o-outro-dia.-Fonte_-https___www.racionaisoficial.com_.br_.jpg') center center no-repeat fixed;
+
+  text-align: justify;
+  text-align: center;
+  padding: 0px;
+  background-color: white;
+}
+
+#container{
+  background-size: 100% 100%;
+  background-image: url('Capa-do-disco-Nada-como-um-dia-apos-o-outro-dia.-Fonte_-https___www.racionaisoficial.com_.br_.jpg');
+  position: relative;
+  height: 94vh;
+  padding: 10px;
+}
+article.conteudo{
+     background: black url('Capa-do-disco-Nada-como-um-dia-apos-o-outro-dia.-Fonte_-https___www.racionaisoficial.com_.br_.jpg') center center no-repeat fixed;
+      background-size: 100% 100%;
+      position: absolute;
+      width: 400px;
+      height: 200px;
+
+      left: 70%;
+      top: 70%;
+
+      transform: translate(-50%, -50%);
+    }
